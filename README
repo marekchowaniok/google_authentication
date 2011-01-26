@@ -1,0 +1,10 @@
+To run this project you have to : 
+
+ mvn clean compile
+ mvn exec:java -Dexec.mainClass=com.majecek.gdata.App -Dexec.args="username[without @gmail.com] password"
+
+
+some tips how to run maven to execute java code (requires to modify  pom.xml) 
+http://www.vineetmanohar.com/2009/11/3-ways-to-run-java-main-from-maven/
+
+
